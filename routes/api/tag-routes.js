@@ -53,9 +53,11 @@ router.put('/:id', async (req, res) => {
         id: req.params.id,
       },
     })
-    if (req.body.tag)
-  }
-});
+    res.status(200).json(tagData);
+    } catch (err) {
+      res.status(400).json(err);
+    }
+  });
 
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
