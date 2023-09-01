@@ -14,4 +14,4 @@ An existing site was edited so that it could properly perform requests to get da
    - npm run start
   
 ## Screencastify Video
-A video playback of the app being tested through insomnia can be found here
+A video playback of the app being tested through insomnia can be found here https://drive.google.com/file/d/1Awj2W5KEvDiX1wuzyGCVou0l5_HBLDi3/view
